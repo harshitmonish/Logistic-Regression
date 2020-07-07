@@ -73,8 +73,8 @@ def plot_graph(x, y, thetas):
 
 def main():
     #firstly read the data from the  file
-    X_in = pd.read_csv("./lin_log/logisticX.csv").values
-    Y_in = pd.read_csv("./lin_log/logisticY.csv").values
+    X_in = pd.read_csv("./logisticX.csv").values
+    Y_in = pd.read_csv("./logisticY.csv").values
     #norlaize the data 
     X = normalize(X_in)
     #Evaluate the thetas and plot the decision boundary
